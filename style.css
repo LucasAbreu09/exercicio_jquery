@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: #F7FFE3;
+}
+
+header{
+    padding-top: 200px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input, button{
+    margin: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 1px solid #000;
+    height: 34px;
+}
+
+form button{
+    background-color: #2BA829 ;
+    cursor: pointer;
+}
+
+ul li{
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.item_completado{
+    text-decoration: line-through;
+}
