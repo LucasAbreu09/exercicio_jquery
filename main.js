@@ -7,8 +7,9 @@ $(document).ready(function(){
         $(`<li>${novaTarefa}</li>`).appendTo('ul')
 
         $('li').click(function() {
-            $(this).addClass('item_completado');
+            $(this).toggleClass('item_completado');
         });
+
     })
 
 })
